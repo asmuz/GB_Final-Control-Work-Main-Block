@@ -49,3 +49,5 @@
   Выводит итоговый результат (исходный массив и новый массив)
 
 #### Посмотреть [код решения на C#](https://github.com/asmuz/GB_Final-Control-Work-Main-Block/blob/main/Program.cs)
+
+#### Посмотреть [коммиты](https://github.com/asmuz/GB_Final-Control-Work-Main-Block/commits/main)
