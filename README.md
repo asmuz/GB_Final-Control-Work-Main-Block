@@ -27,3 +27,25 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 
 ### Алгоритм решения
+
+<p align="center">
+    <img src="https://github.com/asmuz/GB_Final-Control-Work-Main-Block/blob/main/algoritm.jpg" />
+</p>
+
+#### Задача решена с помощью языка C#
+
+Используются следующие методы:
+
+- **int CountItems(string[] array, int max)**
+  Метод подсчитывает число элементов массива, меньше или равных **MAX**
+
+- **string[] NewArray(string[] array, int max)**
+  Cоздаёт новый массив и заполняем его элементами, длинна которых меньше **MAX**
+
+- **void PrintArray(string[] array)**
+  Выводит массив в консоль в красивом формате
+
+- **void Solving(string[] arr, int max)**
+  Выводит итоговый результат (исходный массив и новый массив)
+
+#### Посмотреть [код решения на C#](https://github.com/asmuz/GB_Final-Control-Work-Main-Block/blob/main/Program.cs)
