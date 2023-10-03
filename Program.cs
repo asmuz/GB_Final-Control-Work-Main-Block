@@ -12,7 +12,7 @@
 
 using System.Diagnostics;
 
-Console.Clear();    // очищаем консоль
+System.Console.Clear();    // очищаем консоль
 
 int max = 3;        // максимальная длинна элементов
 
@@ -56,15 +56,15 @@ string[] NewArray(string[] arr, int max)
 // выводим массив в консоль в красивом формате
 void PrintArray(string[] array)
 {
-    Console.Write("[");
+    System.Console.Write("[");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write('"');
-        Console.Write(array[i]);
-        Console.Write('"');
-        if (i < array.Length - 1) Console.Write(", ");
+        System.Console.Write('"');
+        System.Console.Write(array[i]);
+        System.Console.Write('"');
+        if (i < array.Length - 1) System.Console.Write(", ");
     }
-    Console.Write("]");
+    System.Console.Write("]");
 }
 
 // выводим итоговый результат
@@ -72,7 +72,7 @@ void Solving(string[] arr, int max)
 {
     string[] newArray = NewArray(arr, max);
     PrintArray(arr);
-    Console.Write(" → ");
+    System.Console.Write(" → ");
     PrintArray(newArray);
-    Console.WriteLine();
+    System.Console.WriteLine();
 }
