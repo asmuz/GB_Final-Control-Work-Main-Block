@@ -51,3 +51,7 @@
 #### Посмотреть [код решения на C#](https://github.com/asmuz/GB_Final-Control-Work-Main-Block/blob/main/Program.cs)
 
 #### Посмотреть [коммиты](https://github.com/asmuz/GB_Final-Control-Work-Main-Block/commits/main)
+
+### Посмотреть результат работы кода онлайн:
+
+<iframe width="100%" height="1000" src="https://dotnetfiddle.net/Widget/spLy0d" frameborder="0"></iframe>

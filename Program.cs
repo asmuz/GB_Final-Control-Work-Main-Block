@@ -10,8 +10,6 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 */
 
-using System.Diagnostics;
-
 System.Console.Clear();    // очищаем консоль
 
 int max = 3;        // максимальная длинна элементов
